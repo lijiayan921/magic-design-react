@@ -84,7 +84,9 @@ const List = forwardRef<ListRef, ListProps>(
     }: ListProps,
     ref = null,
   ) => {
+    // id号列表
     const defaultList = defaultValue.map(() => getID());
+    // 存储键值对 {id：value}
     const valStore = useRef<Record<string, unknown>>(
       Object.fromEntries(defaultValue.map((item, index) => [defaultList[index], item])),
     );

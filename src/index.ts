@@ -1,5 +1,6 @@
 import './global.css';
 
+export * from './Button';
 export * from './DataStructure';
 // export { default as Foo } from './Foo';
 export * from './Loading';

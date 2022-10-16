@@ -51,6 +51,8 @@ module.exports = {
     'max-lines-per-function': 'off',
     'github/array-foreach': 'off',
     'fp/no-let': 'off',
+    'react/self-closing-comp': 'off',
+    '@typescript-eslint/naming-convention': 'off',
   },
   globals: {
     NodeJS: true,

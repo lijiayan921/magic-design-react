@@ -25,7 +25,6 @@ export default CheckBoxPage;
 ```tsx
 import { EnergtSphereLoading } from 'magic-design-react';
 import React from 'react';
-
 const DemoDefault: React.FC<void> = () => {
   return (
     <div className="mg-flex mg-p-8 mg-justify-evenly">

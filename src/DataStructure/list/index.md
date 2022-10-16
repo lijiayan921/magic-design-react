@@ -31,7 +31,6 @@ import { Button, Input } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import { List } from 'magic-design-react';
 import React, { useRef, useState } from 'react';
-
 const useStyles = makeStyles({
   outLineContainer: {
     '& > *': {

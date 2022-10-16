@@ -6,14 +6,14 @@ export default defineConfig({
   base: '/magic-design-react',
   publicPath: '/magic-design-react/',
   // navs: [
-  // 	{
-  // 		title: 'components',
-  // 		path: '/components',
-  // 	},
-  // 	{
-  // 		title: 'github',
-  // 		path: 'https://github.com/umijs/dumi',
-  // 	},
+  //   {
+  //     title: 'components',
+  //     path: '/components',
+  //   },
+  //   {
+  //     title: 'github',
+  //     path: 'https://github.com/umijs/dumi',
+  //   },
   // ],
   // menus: {
   // 	'/components': [
